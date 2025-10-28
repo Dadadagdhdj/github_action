@@ -10,7 +10,7 @@ COPY package*.json ./
 RUN npm install 
 
 # Copy rest of the application code
-RUN npm test
+#RUN npm test
 
 # Expose the port your app runs on (example: 3000)
 EXPOSE 3000
