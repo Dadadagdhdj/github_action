@@ -4,7 +4,7 @@ FROM node:16-alpine
 WORKDIR /app
 
 # Copy package files first for efficient caching
-#COPY package*.json ./
+COPY package*.json ./
 
 # Install dependencies
 RUN npm install 
