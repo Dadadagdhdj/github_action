@@ -38,7 +38,7 @@
         }
     ],
     "cpu": "1024",
-    "enableFaultInjection": true,
+    
     "executionRoleArn": "arn:aws:iam::440536347152:role/ecsTaskExecutionRole",
     "family": "task_wali",
     "memory": "2048",
