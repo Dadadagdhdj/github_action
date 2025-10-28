@@ -35,9 +35,9 @@ env:
   ECR_REPOSITORY: ecr_bhaiya           # set this to your Amazon ECR repository name
   ECS_SERVICE: task_wali-service-puai7h69                 # set this to your Amazon ECS service name
   ECS_CLUSTER: everlasting-shark-x6xh86                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: task_wali  # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: task_wali-revision1.json  # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: MY_CONTAINER_NAME           # set this to the name of the container in the
+  CONTAINER_NAME: mycont           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 permissions:
